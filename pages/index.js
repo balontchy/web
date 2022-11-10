@@ -1,7 +1,6 @@
 import React from 'react'
-import Product from '../components/Product'
-import Footer from '../components/Footer'
-import style from '../styles/Product.module.css'
+import Product from '../components/products/Product'
+import style from '../styles/products/Product.module.css'
 
 function index({products}) {
   return (

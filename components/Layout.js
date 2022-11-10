@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Filter from './Filter'
-import Aside from './Aside'
-import Login from './Login'
+import Navbar from './interface/Navbar'
+import Filter from './interface/Filter'
+import Aside from './interface/Aside'
+import Login from './interface/Login'
 function Layout({children}) {
     return <div className='container'>
 

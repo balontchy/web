@@ -13,13 +13,10 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 200px auto auto 200px;
-  grid-template-rows: 100px 50px auto 100px;
+  grid-template-rows: 100px 50px auto;
   grid-template-areas: 
   "navbar navbar navbar login"
   "aside filter filter filter"
-  "aside main   main     main"
-  "aside main   main     main"
-  "aside main   main     main"
   "aside main   main     main"
   ;
   gap: 10px;
@@ -74,13 +71,10 @@ a {
   height: 100vh;
   display: grid;
   grid-template-columns: 200px auto auto 200px;
-  grid-template-rows: 100px 50px auto 100px;
+  grid-template-rows: 100px 50px auto ;
   grid-template-areas: 
   "navbar navbar navbar login"
   "filter filter filter filter"
-  "main main   main     main"
-  "main main   main     main"
-  "main main   main     main"
   "main main   main     main"
   ;
   gap: 10px;

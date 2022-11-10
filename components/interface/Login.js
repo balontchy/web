@@ -1,11 +1,11 @@
 import React from 'react'
-import style from '../styles/interface/Login.module.css'
+import style from '../../styles/interface/Login.module.css'
 import Image from 'next/image'
 
 function Login() {
   return (
     <div className={style.container + " login"}>
-      <Image className={style.image} src={'/younes.jpg' } width={50} height={50} />
+      <Image className={style.image} src={'/younes.jpg' } width={50} height={50} alt={'younes zaouda'} />
       <p>Younes ZAOUDA</p>
       
     </div>
