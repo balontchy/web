@@ -19,6 +19,8 @@ body {
   "aside filter filter filter"
   "aside main   main     main"
   "aside main   main     main"
+  "aside main   main     main"
+  "aside main   main     main"
   ;
   gap: 10px;
 }
@@ -76,6 +78,9 @@ a {
   grid-template-areas: 
   "navbar navbar navbar login"
   "filter filter filter filter"
+  "main main   main     main"
+  "main main   main     main"
+  "main main   main     main"
   "main main   main     main"
   ;
   gap: 10px;
