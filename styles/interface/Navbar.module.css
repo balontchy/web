@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 20px;
+}
+.link{
+    margin-left: 20px;
+}
+.burger{
+    display: none;
+}
+
+
+@media all and (max-width: 800px) {
+    .link{  display: none;}
+    .burger{
+        display: flex;
+        justify-content: space-between;
+        display: flex;}
+}

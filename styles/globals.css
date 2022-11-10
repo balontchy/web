@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&family=Montserrat:wght@300;400;600&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Cairo', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+
+}
+/* grid view */
+.container{
+  padding: 5px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px auto auto 200px;
+  grid-template-rows: 100px 50px auto 100px;
+  grid-template-areas: 
+  "navbar navbar navbar login"
+  "aside filter filter filter"
+  "aside main   main     main"
+  "aside main   main     main"
+  ;
+  gap: 10px;
+}
+.navbar {
+  grid-area: navbar;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+
+.login {
+  grid-area: login;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+
+.filter {
+  grid-area: filter;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.aside {
+  grid-area: aside;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main {
+  overflow: auto;
+  grid-area: main;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* media query */
+@media all and (max-width: 900px) {
+  .aside{display: none;}
+  .container{
+  padding: 5px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px auto auto 200px;
+  grid-template-rows: 100px 50px auto 100px;
+  grid-template-areas: 
+  "navbar navbar navbar login"
+  "filter filter filter filter"
+  "main main   main     main"
+  ;
+  gap: 10px;
+}
+}
+
+
+
+
+/* end of media query  */
