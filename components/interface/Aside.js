@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import style from '../../styles/interface/Aside.module.css'
+import {CiFacebook,CiInstagram,CiTwitter} from 'react-icons/ci'
+
 import { SlSymbleFemale ,
   SlSymbolMale,
   SlScreenSmartphone,
@@ -47,7 +49,14 @@ function Aside() {
             <Link className={style.link} href={'/'}> Health & Hair </Link>
           </div>
 
-
+      <div className={style.icons}>
+          <p className={style.simpleLogo}>SIMPLE-STORE</p>
+          <div className={style.social}>
+          <Link className={style.li} href={'https://www.facebook.com/balontchy'}> <CiFacebook /> </Link>
+          <Link className={style.li} href={'https://www.facebook.com/balontchy'}> <CiInstagram /> </Link>
+          <Link className={style.li} href={'https://www.facebook.com/balontchy'}> <CiTwitter /> </Link>
+        </div>
+        </div>
       </div>
     </div>
   )
