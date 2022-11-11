@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from '../components/products/Product'
+import Product from '../components/Product'
 import style from '../styles/products/Product.module.css'
 
 function index({products}) {

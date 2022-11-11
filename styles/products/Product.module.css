@@ -4,16 +4,24 @@
     gap: 10px;
 }
 
-.container{
+.container {
     padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-align-items: center;
-background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-.image{
+
+.image {
     margin-bottom: 10px;
+}
+.link{
+    
+    padding: 10px  30px;
+    background-color: rgb(233, 227, 227);
+    border-radius: 20px;
 }
