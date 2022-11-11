@@ -12,7 +12,7 @@ function SingleProduct({product}) {
                 <Head>
                     <title>{title}</title>
                 </Head>
-                <Image className={style.image} src={image} width={300} height={500}/>
+                <Image className={style.image} src={image} width={200} height={300}/>
                 <div className={style.contant}>
                     <h3>Title: {title}</h3>
                     <h3>Price: {price},00$</h3>
