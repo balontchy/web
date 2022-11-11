@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Login() {
   return (
     <div className={style.container + " login"}>
-      <Image className={style.image} src={'/younes.jpg' } width={50} height={50} alt={'younes zaouda'} />
+      <Image className={style.image} src={'/younes.jpg' } width={40} height={40} alt={'younes zaouda'} />
       <p>Younes ZAOUDA</p>
       
     </div>

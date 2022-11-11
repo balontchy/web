@@ -2,6 +2,7 @@ import React from 'react'
 import style from '../../styles/interface/Navbar.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import {CiFacebook,CiInstagram,CiTwitter} from 'react-icons/ci'
 
 function  Navbar() {
   return (
@@ -10,9 +11,7 @@ function  Navbar() {
         <div className={style.burger}>
           <Image src={'/burger.png'} width={30} height={28} alt={'burger'}  />
         </div>
-        <div className={style.logo}>
-          <h3>Store</h3>
-        </div>
+   
         <nav className={style.nav}>
           <ul>
               <Link className={style.link}  href={'/'}> Home </Link>
@@ -22,6 +21,11 @@ function  Navbar() {
               <Link className={style.link}  href={'/project'}> project </Link>
           </ul>
         </nav>
+        <div className={style.icons}>
+          <Link className={style.li} href={'https://www.facebook.com/balontchy'}> <CiFacebook /> </Link>
+          <Link className={style.li} href={'https://www.facebook.com/balontchy'}> <CiInstagram /> </Link>
+          <Link className={style.li} href={'https://www.facebook.com/balontchy'}> <CiTwitter /> </Link>
+        </div>
       </div>
     </div>
   )
