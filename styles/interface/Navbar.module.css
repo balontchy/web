@@ -2,10 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:10px 20px;
+    margin:-8px 20px;
 }
-.container ul{
-    margin-top: 0px;
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(212, 205, 205);
+    padding: 5px;
 }
 .link{
     margin-left: 20px;
@@ -23,10 +28,32 @@
 }
 
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 950px) {
     .link{  display: none;}
     .burger{
         display: flex;
-        justify-content: space-between;
-        display: flex;}
+        justify-content: space-around;
+        align-items: center;
+        }
+    .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:-8px 20px;
+}
+}
+@media all and (max-width: 600px) {
+    .link{  display: none;}
+    .burger{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .logo{
+        display: none;
+    }
+    .container{
+        display: flex;
+        margin: 10px 20px;
+}
 }

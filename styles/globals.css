@@ -71,7 +71,7 @@ a {
   height: 100vh;
   display: grid;
   grid-template-columns: 200px auto auto 200px;
-  grid-template-rows: 100px 50px auto ;
+  grid-template-rows: 50px 50px auto ;
   grid-template-areas: 
   "navbar navbar navbar login"
   "filter filter filter filter"

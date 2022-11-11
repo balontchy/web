@@ -11,7 +11,7 @@ function  Navbar() {
         <div className={style.burger}>
           <Image src={'/burger.png'} width={30} height={28} alt={'burger'}  />
         </div>
-   
+        <p className={style.logo}>SIMPLE-STORE</p>
         <nav className={style.nav}>
           <ul>
               <Link className={style.link}  href={'/'}> Home </Link>
