@@ -8,7 +8,7 @@ import Head from 'next/head'
 function SingleProduct({product}) {
     const {id,title,image,price,description} = product;
   return (
-            <div className={style.container}>
+            <div className={style.container + " main"}>
                 <Head>
                     <title>{title}</title>
                 </Head>

@@ -1,9 +1,7 @@
 .container{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0px auto;
-    width: 100%;
+    width: auto;
+    justify-content: center;
 
 }
 .image{
@@ -11,29 +9,17 @@
 }
 .contant{
     height: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 @media all and (max-width: 600px) {
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
-        margin: 0px 30px;
-            width: 55vh;
-        }
-        .image{
-            display: flex;
-            margin-left: 30px;
-            justify-content: center;
-            align-items: center;
-
-        }
-        .contant{
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            align-items: center;
-            margin: auto;
-        }
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
 }
